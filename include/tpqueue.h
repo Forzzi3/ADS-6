@@ -10,6 +10,7 @@ class TPQueue {
     uint64_t first;
     uint64_t last;
     uint64_t count;
+    
  public:
     TPQueue(): first(0), last(0), count(0) {
         arr = new T[size];
